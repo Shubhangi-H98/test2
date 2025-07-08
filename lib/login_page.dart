@@ -19,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
         context: context,
         builder: (_) => AlertDialog(
           title: Text('Input Error'),
-          content: Text('Username और Password खाली नहीं हो सकते।'),
+          content: Text('Username and password can not be empty'),
           actions: [
             TextButton(
               onPressed: () => Navigator.pop(context),
